@@ -1,6 +1,6 @@
 ### Echart Graph 支持节点之间多边
 copy from https://github.com/songliuchen/echarts.git
-fix layout设置为none,且设置coordinateSystem时出错的bug
+fix layout为none，且设置coordinateSystem时出错的bug
 #### Echart 版本 4.7.0
 #### 修改代码：
 - src/data/Graph.js  -----解决可以添加重复边
