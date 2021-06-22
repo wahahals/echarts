@@ -58496,7 +58496,7 @@ var simpleLayout = function (ecModel, api) {
                 }
             }
 
-            simpleLayoutEdge(data.graph);
+            simpleLayoutEdge(data.graph, seriesModel);
         }
         else if (!layout || layout === 'none') {
             simpleLayout$1(seriesModel);
